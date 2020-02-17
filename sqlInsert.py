@@ -2,7 +2,7 @@
 import mysql.connector
 
 # Open database connection
-db = mysql.connector.connect(host="192.168.0.131", user="loelam21", passwd="lam", db="loelam21")
+db = mysql.connector.connect(host="localhost", user="user", passwd="password", db="school")
 db.autocommit = True #autocommit to db
 
 # Create a cursor object using cursor() method
